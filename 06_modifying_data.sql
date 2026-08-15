@@ -11,4 +11,4 @@ SELECT * FROM users WHERE id = 8;
 -- Updating Multiple Rows
 UPDATE users SET city = 'Updated City' WHERE id IN (6, 7, 8); -- Updating the city for users with id 6, 7, and 8.
 
-
+UPDATE users SET city = 'Updated Again City' WHERE id BETWEEN 6 AND 8; -- Updating the city for users with id between 6 and 8.
