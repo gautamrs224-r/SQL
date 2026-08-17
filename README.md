@@ -55,7 +55,7 @@ This repository contains my:
 **0 / 22 Sections Completed**
 
 ```text
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0%
+███████████━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23%
 ```
 
 🌱 **Just getting started**
