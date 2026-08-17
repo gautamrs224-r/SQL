@@ -1,3 +1,748 @@
+Yes. One important limitation first: **GitHub does not allow arbitrary CSS inside `README.md`**. So instead of adding a separate CSS file that GitHub will ignore, I'll make the README look highly designed using **GitHub-supported HTML + Markdown**, including banners, badges, progress bars, colored sections, cards, tables, and collapsible sections.
+
+I've also updated it for **both MySQL 🐬 and PostgreSQL 🐘** while keeping your **22-section structure unchanged**.
+
+<div align="center">
+
+# 🗄️ SQL Learning RoadMap
+
+### 🐬 MySQL + 🐘 PostgreSQL
+
+**From SQL Fundamentals → Database Design → Backend Development**
+
+<br>
+
+![Status](https://img.shields.io/badge/Status-Learning-2ea44f?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-Learning-336791?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-Learning-4479A1?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Learning-4169E1?style=for-the-badge)
+
+<br><br>
+
+> 🚀 **Learning databases isn't about memorizing queries.**
+>
+> **It's about understanding data, relationships, logic, and how real applications store and use information.**
+
+</div>
+
+---
+
+# 🌱 My SQL Journey
+
+I'm currently learning **SQL, MySQL, and PostgreSQL from the ground up**.
+
+The goal is not simply to learn SQL syntax. I want to understand how relational databases work, how data is structured, how queries are executed, how databases communicate with backend applications, and how to design databases for real-world software.
+
+This repository contains my:
+
+* 📚 Notes
+* 💻 SQL queries
+* 🧪 Experiments
+* 🏋️ Exercises
+* 🧠 Problem-solving practice
+* 🏗️ Database designs
+* 🚀 Projects
+* 💼 Interview preparation
+
+---
+
+# 📊 Current Progress
+
+<div align="center">
+
+### Overall Learning Progress
+
+**0 / 22 Sections Completed**
+
+```text
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0%
+```
+
+🌱 **Just getting started**
+
+</div>
+
+### 🎯 Progress Levels
+
+| Symbol | Meaning     |
+| :----: | ----------- |
+|    ⬜   | Not Started |
+|   🟡   | Learning    |
+|   🔵   | Practicing  |
+|   🟢   | Comfortable |
+|   🟣   | Strong      |
+|    ✅   | Mastered    |
+
+> 💡 I will update the status as I actually learn and practice each topic.
+
+---
+
+# 🧭 Learning Architecture
+
+```text
+                         🗄️ SQL
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+             ▼                           ▼
+        🐬 MySQL                    🐘 PostgreSQL
+             │                           │
+             └─────────────┬─────────────┘
+                           │
+                           ▼
+                  🧠 Database Design
+                           │
+                           ▼
+                   ⚡ Advanced SQL
+                           │
+                           ▼
+                  🔌 Backend Integration
+                           │
+             ┌─────────────┴─────────────┐
+             ▼                           ▼
+       TypeScript                     Python
+             │                           │
+        Node.js /                    FastAPI /
+        Express.js                   Backend
+             │                           │
+             └─────────────┬─────────────┘
+                           ▼
+                  🚀 Full-Stack Apps
+```
+
+---
+
+# 🐬 MySQL + 🐘 PostgreSQL
+
+I'm learning **both MySQL and PostgreSQL**.
+
+However, I'm not going to memorize them as two completely unrelated technologies.
+
+The approach is:
+
+```text
+             SQL Fundamentals
+                    │
+        ┌───────────┴───────────┐
+        ▼                       ▼
+      MySQL                PostgreSQL
+        │                       │
+        └───────────┬───────────┘
+                    ▼
+            Compare & Understand
+```
+
+### 🧠 First
+
+I'll learn concepts common to relational databases:
+
+* SQL syntax
+* CRUD
+* Filtering
+* Functions
+* Aggregation
+* JOINs
+* Subqueries
+* Constraints
+* Relationships
+* Transactions
+* Indexes
+* CTEs
+* Window Functions
+* Database Design
+
+### 🐬 Then MySQL
+
+I'll learn:
+
+* MySQL setup
+* MySQL Workbench
+* MySQL-specific syntax
+* MySQL data types
+* MySQL functions
+* MySQL indexes
+* MySQL transactions
+* MySQL-specific features
+
+### 🐘 Then PostgreSQL
+
+I'll learn:
+
+* PostgreSQL setup
+* pgAdmin
+* `psql`
+* PostgreSQL data types
+* JSON / JSONB
+* Arrays
+* Extensions
+* PostgreSQL functions
+* PostgreSQL indexes
+* PostgreSQL-specific features
+
+### 🎯 Goal
+
+Understand **what is standard SQL**, what is **database-specific**, and **when the differences actually matter**.
+
+---
+
+# 🗺️ Complete Roadmap
+
+## 01 🟢 SQL Basics
+
+**Status:** ✅ Mastered
+
+| #  | Topic              | Status |
+| -- | ------------------ | :----: |
+| 01 | What is SQL?       |    ✅   |
+| 02 | Databases & Tables |    ✅   |
+| 03 | Create Database    |    ✅   |
+| 04 | Create Table       |    ✅   |
+| 05 | Insert Data        |    ✅   |
+| 06 | Select Data        |    ✅   |
+| 07 | WHERE              |    ✅   |
+| 08 | ORDER BY           |    ✅   |
+| 09 | LIMIT              |    ✅   |
+| 10 | DISTINCT           |    ✅   |
+
+📁 `01_SQL_Basics/`
+
+---
+
+## 02 🔢 Data Types
+
+**Status:** ✅ Mastered
+
+* ✅ Numeric Types
+* ✅ String Types
+* ✅ Date & Time Types
+* ✅ Boolean
+* ✅ NULL
+
+📁 `02_Data_Types/`
+
+---
+
+## 03 🔄 CRUD
+
+**Status:** ⬜ Not Started
+
+* ⬜ INSERT
+* ⬜ SELECT
+* ⬜ UPDATE
+* ⬜ DELETE
+
+📁 `03_CRUD/`
+
+---
+
+## 04 ⚙️ Operators
+
+**Status:** ⬜ Not Started
+
+* ⬜ Comparison Operators
+* ⬜ Logical Operators
+* ⬜ Arithmetic Operators
+* ⬜ BETWEEN
+* ⬜ IN
+* ⬜ LIKE
+* ⬜ IS NULL
+
+📁 `04_Operators/`
+
+---
+
+## 05 🧮 Functions
+
+**Status:** ⬜ Not Started
+
+* ⬜ String Functions
+* ⬜ Numeric Functions
+* ⬜ Date Functions
+* ⬜ CASE
+* ⬜ COALESCE
+* ⬜ CAST
+
+📁 `05_Functions/`
+
+---
+
+## 06 📊 Aggregation
+
+**Status:** ⬜ Not Started
+
+* ⬜ COUNT()
+* ⬜ SUM()
+* ⬜ AVG()
+* ⬜ MIN() / MAX()
+* ⬜ GROUP BY
+* ⬜ HAVING
+
+📁 `06_Aggregation/`
+
+---
+
+## 07 🔗 Joins
+
+**Status:** ⬜ Not Started
+
+* ⬜ Relationships
+* ⬜ INNER JOIN
+* ⬜ LEFT JOIN
+* ⬜ RIGHT JOIN
+* ⬜ FULL JOIN
+* ⬜ CROSS JOIN
+* ⬜ SELF JOIN
+
+📁 `07_Joins/`
+
+---
+
+## 08 🔍 Subqueries
+
+**Status:** ⬜ Not Started
+
+* ⬜ Basic Subqueries
+* ⬜ Scalar Subqueries
+* ⬜ Correlated Subqueries
+* ⬜ EXISTS
+
+📁 `08_Subqueries/`
+
+---
+
+## 09 🔀 Set Operations
+
+**Status:** ⬜ Not Started
+
+* ⬜ UNION
+* ⬜ UNION ALL
+* ⬜ INTERSECT
+* ⬜ EXCEPT
+
+📁 `09_Set_Operations/`
+
+---
+
+## 10 🔐 Constraints
+
+**Status:** ⬜ Not Started
+
+* ⬜ PRIMARY KEY
+* ⬜ FOREIGN KEY
+* ⬜ UNIQUE
+* ⬜ NOT NULL
+* ⬜ CHECK
+* ⬜ DEFAULT
+
+📁 `10_Constraints/`
+
+---
+
+# 🏗️ 11 Database Design
+
+**Status:** ⬜ Not Started
+
+This section is especially important because writing queries and **designing a good database are two different skills**.
+
+* ⬜ Entities & Attributes
+* ⬜ Relationships
+* ⬜ One-to-One
+* ⬜ One-to-Many
+* ⬜ Many-to-Many
+* ⬜ Normalization
+* ⬜ 1NF
+* ⬜ 2NF
+* ⬜ 3NF
+* ⬜ Denormalization
+
+📁 `11_Database_Design/`
+
+---
+
+# 🔒 12 Transactions
+
+**Status:** ⬜ Not Started
+
+* ⬜ Transactions
+* ⬜ COMMIT
+* ⬜ ROLLBACK
+* ⬜ ACID
+* ⬜ Isolation Levels
+
+📁 `12_Transactions/`
+
+---
+
+# 👁️ 13 Views
+
+**Status:** ⬜ Not Started
+
+* ⬜ CREATE VIEW
+* ⬜ Updating Views
+* ⬜ Materialized Views
+
+📁 `13_Views/`
+
+---
+
+# ⚡ 14 Indexes
+
+**Status:** ⬜ Not Started
+
+* ⬜ What is an Index?
+* ⬜ CREATE INDEX
+* ⬜ Composite Indexes
+* ⬜ Unique Indexes
+* ⬜ Index Trade-offs
+
+📁 `14_Indexes/`
+
+---
+
+# 🧩 15 CTEs
+
+**Status:** ⬜ Not Started
+
+* ⬜ Basic CTE
+* ⬜ Multiple CTEs
+* ⬜ Recursive CTEs
+
+📁 `15_CTEs/`
+
+---
+
+# 📈 16 Window Functions
+
+**Status:** ⬜ Not Started
+
+* ⬜ OVER()
+* ⬜ ROW_NUMBER()
+* ⬜ RANK()
+* ⬜ DENSE_RANK()
+* ⬜ LAG() / LEAD()
+* ⬜ PARTITION BY
+
+📁 `16_Window_Functions/`
+
+---
+
+# 🧠 17 Advanced SQL
+
+**Status:** ⬜ Not Started
+
+* ⬜ Case Studies
+* ⬜ Complex Queries
+* ⬜ Query Optimization
+* ⬜ Execution Plans
+* ⬜ Recursive Queries
+
+📁 `17_Advanced_SQL/`
+
+---
+
+# 🐘 18 PostgreSQL
+
+**Status:** ⬜ Not Started
+
+* ⬜ PostgreSQL Setup
+* ⬜ `psql`
+* ⬜ PostgreSQL Data Types
+* ⬜ JSON
+* ⬜ JSONB
+* ⬜ Arrays
+* ⬜ Extensions
+* ⬜ PostgreSQL-Specific Features
+
+📁 `18_PostgreSQL/`
+
+---
+
+# 🔌 19 SQL With Backend
+
+**Status:** ⬜ Not Started
+
+SQL becomes much more useful when connected to actual applications.
+
+### TypeScript / Node.js
+
+* ⬜ Node.js + PostgreSQL
+* ⬜ Express.js + PostgreSQL
+* ⬜ TypeScript + PostgreSQL
+
+### Python
+
+* ⬜ Python + PostgreSQL
+* ⬜ FastAPI + PostgreSQL
+
+### Architecture
+
+* ⬜ API + Database Architecture
+* ⬜ Database Connection
+* ⬜ Query Execution
+* ⬜ Error Handling
+* ⬜ Transactions in APIs
+* ⬜ Environment Variables
+* ⬜ Connection Pooling
+
+📁 `19_SQL_With_Backend/`
+
+---
+
+# 🚀 20 Real-World Projects
+
+**Status:** ⬜ Not Started
+
+## 🧑‍🎓 Student Database
+
+* ⬜ Database design
+* ⬜ Tables
+* ⬜ Relationships
+* ⬜ CRUD
+* ⬜ Queries
+* ⬜ JOIN practice
+
+## 📚 Library Database
+
+* ⬜ Books
+* ⬜ Authors
+* ⬜ Members
+* ⬜ Borrowings
+* ⬜ Relationships
+* ⬜ Reports
+
+## 💰 Expense Tracker
+
+* ⬜ Users
+* ⬜ Categories
+* ⬜ Transactions
+* ⬜ Reports
+* ⬜ Aggregation
+
+## 🛒 E-Commerce Database
+
+* ⬜ Users
+* ⬜ Products
+* ⬜ Categories
+* ⬜ Orders
+* ⬜ Order Items
+* ⬜ Payments
+* ⬜ Addresses
+* ⬜ Reviews
+
+## ✍️ Blog Database
+
+* ⬜ Users
+* ⬜ Posts
+* ⬜ Comments
+* ⬜ Tags
+* ⬜ Many-to-Many relationships
+
+## 🌐 Full-Stack Application
+
+* ⬜ Requirements
+* ⬜ Database design
+* ⬜ ER diagram
+* ⬜ Schema
+* ⬜ Constraints
+* ⬜ Indexes
+* ⬜ Backend integration
+* ⬜ API queries
+* ⬜ Testing
+
+📁 `20_Projects/`
+
+---
+
+# 💼 21 Interview Practice
+
+**Status:** ⬜ Not Started
+
+* ⬜ Basic SQL Questions
+* ⬜ JOIN Questions
+* ⬜ Aggregation Questions
+* ⬜ Subquery Questions
+* ⬜ Window Function Questions
+* ⬜ Real-World Queries
+
+📁 `21_Interview_Practice/`
+
+---
+
+# 🏋️ 22 Exercises
+
+**Status:** ⬜ Not Started
+
+### 🟢 Beginner
+
+* ⬜ SELECT
+* ⬜ WHERE
+* ⬜ ORDER BY
+* ⬜ CRUD
+* ⬜ Basic Functions
+
+### 🟡 Intermediate
+
+* ⬜ Aggregation
+* ⬜ GROUP BY
+* ⬜ HAVING
+* ⬜ JOINs
+* ⬜ Subqueries
+* ⬜ Constraints
+
+### 🔴 Advanced
+
+* ⬜ Complex JOINs
+* ⬜ CTEs
+* ⬜ Window Functions
+* ⬜ Query Optimization
+* ⬜ Real-World Problems
+
+📁 `22_Exercises/`
+
+---
+
+# 🧰 Tools & Technologies
+
+<div align="center">
+
+|      Technology     | Purpose                 |
+| :-----------------: | ----------------------- |
+|       🗄️ SQL       | Database Query Language |
+|       🐬 MySQL      | Relational Database     |
+|    🐘 PostgreSQL    | Relational Database     |
+| 🛠️ MySQL Workbench | MySQL GUI               |
+|     🖥️ pgAdmin     | PostgreSQL GUI          |
+|      💻 VS Code     | Code Editor             |
+|        🔀 Git       | Version Control         |
+|      🌐 GitHub      | Repository & Portfolio  |
+
+</div>
+
+---
+
+# 🔗 SQL → Full-Stack Development
+
+SQL will eventually become one piece of my complete development stack.
+
+```text
+┌──────────────────────────────┐
+│          FRONTEND            │
+│      React / Next.js         │
+└──────────────┬───────────────┘
+               │
+               │ HTTP / JSON
+               ▼
+┌──────────────────────────────┐
+│           BACKEND            │
+│    Node.js / Express.js      │
+│        TypeScript            │
+└──────────────┬───────────────┘
+               │
+               │ SQL Queries
+               ▼
+┌──────────────────────────────┐
+│          DATABASE            │
+│      🐬 MySQL / 🐘 PG        │
+└──────────────────────────────┘
+```
+
+And eventually:
+
+```text
+Python
+   ↓
+FastAPI
+   ↓
+PostgreSQL
+```
+
+---
+
+# 🧠 Learning Philosophy
+
+I don't want to become someone who can only memorize:
+
+```sql
+SELECT
+FROM
+WHERE
+JOIN
+GROUP BY
+```
+
+I want to understand **why** these concepts exist.
+
+For every important concept, I'll ask:
+
+> ❓ What problem does this solve?
+
+> 🧠 Why does it exist?
+
+> ⚙️ How does it work?
+
+> 🎯 When should I use it?
+
+> 🚫 When should I avoid it?
+
+> 🔬 What happens inside the database?
+
+> ⚡ How does it affect performance?
+
+> 🏗️ How is it used in a real application?
+
+---
+
+# 📈 Skill Progress
+
+```text
+SQL Fundamentals       ⬜
+MySQL                  ⬜
+PostgreSQL             ⬜
+CRUD                   ⬜
+Filtering              ⬜
+Functions              ⬜
+Aggregation            ⬜
+JOINs                  ⬜
+Subqueries             ⬜
+Database Design        ⬜
+Normalization          ⬜
+Transactions           ⬜
+Indexes                ⬜
+CTEs                   ⬜
+Window Functions       ⬜
+Advanced SQL           ⬜
+Backend Integration    ⬜
+Database Projects      ⬜
+Interview Problems     ⬜
+```
+
+---
+
+# 🏆 Milestones
+
+| Milestone                           | Status |
+| ----------------------------------- | :----: |
+| 🟢 Understand SQL fundamentals      |    ⬜   |
+| 🟢 Perform CRUD operations          |    ⬜   |
+| 🟢 Write complex queries            |    ⬜   |
+| 🟢 Understand JOINs deeply          |    ⬜   |
+| 🟢 Design relational databases      |    ⬜   |
+| 🟢 Understand normalization         |    ⬜   |
+| 🟢 Understand transactions          |    ⬜   |
+| 🟢 Use indexes effectively          |    ⬜   |
+| 🟢 Write CTEs                       |    ⬜   |
+| 🟢 Use window functions             |    ⬜   |
+| 🟢 Work confidently with MySQL      |    ⬜   |
+| 🟢 Work confidently with PostgreSQL |    ⬜   |
+| 🟢 Connect SQL with backend APIs    |    ⬜   |
+| 🟢 Build real database projects     |    ⬜   |
+| 🏆 Become confident with SQL        |    ⬜   |
+
+---
+
+# 📁 Repository Structure
+
+```text
 SQL Learning RoadMap/
 │
 ├── README.md
@@ -15,156 +760,77 @@ SQL Learning RoadMap/
 │   └── 10_distinct.sql
 │
 ├── 02_Data_Types/
-│   ├── 01_numeric_types.sql
-│   ├── 02_string_types.sql
-│   ├── 03_date_time_types.sql
-│   ├── 04_boolean.sql
-│   └── 05_null.sql
-│
 ├── 03_CRUD/
-│   ├── 01_insert.sql
-│   ├── 02_select.sql
-│   ├── 03_update.sql
-│   └── 04_delete.sql
-│
 ├── 04_Operators/
-│   ├── 01_comparison.sql
-│   ├── 02_logical.sql
-│   ├── 03_arithmetic.sql
-│   ├── 04_between.sql
-│   ├── 05_in.sql
-│   ├── 06_like.sql
-│   └── 07_is_null.sql
-│
 ├── 05_Functions/
-│   ├── 01_string_functions.sql
-│   ├── 02_numeric_functions.sql
-│   ├── 03_date_functions.sql
-│   ├── 04_case.sql
-│   ├── 05_coalesce.sql
-│   └── 06_cast.sql
-│
 ├── 06_Aggregation/
-│   ├── 01_count.sql
-│   ├── 02_sum.sql
-│   ├── 03_avg.sql
-│   ├── 04_min_max.sql
-│   ├── 05_group_by.sql
-│   └── 06_having.sql
-│
 ├── 07_Joins/
-│   ├── 01_relationships.sql
-│   ├── 02_inner_join.sql
-│   ├── 03_left_join.sql
-│   ├── 04_right_join.sql
-│   ├── 05_full_join.sql
-│   ├── 06_cross_join.sql
-│   └── 07_self_join.sql
-│
 ├── 08_Subqueries/
-│   ├── 01_basic_subqueries.sql
-│   ├── 02_scalar_subqueries.sql
-│   ├── 03_correlated_subqueries.sql
-│   └── 04_exists.sql
-│
 ├── 09_Set_Operations/
-│   ├── 01_union.sql
-│   ├── 02_union_all.sql
-│   ├── 03_intersect.sql
-│   └── 04_except.sql
-│
 ├── 10_Constraints/
-│   ├── 01_primary_key.sql
-│   ├── 02_foreign_key.sql
-│   ├── 03_unique.sql
-│   ├── 04_not_null.sql
-│   ├── 05_check.sql
-│   └── 06_default.sql
-│
 ├── 11_Database_Design/
-│   ├── 01_entities_and_attributes.md
-│   ├── 02_relationships.md
-│   ├── 03_one_to_one.md
-│   ├── 04_one_to_many.md
-│   ├── 05_many_to_many.md
-│   ├── 06_normalization.md
-│   ├── 07_1NF.md
-│   ├── 08_2NF.md
-│   ├── 09_3NF.md
-│   └── 10_denormalization.md
-│
 ├── 12_Transactions/
-│   ├── 01_transactions.sql
-│   ├── 02_commit.sql
-│   ├── 03_rollback.sql
-│   ├── 04_acid.md
-│   └── 05_isolation_levels.md
-│
 ├── 13_Views/
-│   ├── 01_create_view.sql
-│   ├── 02_update_view.sql
-│   └── 03_materialized_views.sql
-│
 ├── 14_Indexes/
-│   ├── 01_what_is_index.md
-│   ├── 02_create_index.sql
-│   ├── 03_composite_indexes.sql
-│   ├── 04_unique_indexes.sql
-│   └── 05_index_tradeoffs.md
-│
 ├── 15_CTEs/
-│   ├── 01_basic_cte.sql
-│   ├── 02_multiple_ctes.sql
-│   └── 03_recursive_cte.sql
-│
 ├── 16_Window_Functions/
-│   ├── 01_over.sql
-│   ├── 02_row_number.sql
-│   ├── 03_rank.sql
-│   ├── 04_dense_rank.sql
-│   ├── 05_lag_lead.sql
-│   └── 06_partition_by.sql
-│
 ├── 17_Advanced_SQL/
-│   ├── 01_case_studies.sql
-│   ├── 02_complex_queries.sql
-│   ├── 03_query_optimization.md
-│   ├── 04_execution_plans.md
-│   └── 05_recursive_queries.sql
-│
 ├── 18_PostgreSQL/
-│   ├── 01_setup.md
-│   ├── 02_psql.md
-│   ├── 03_postgresql_types.sql
-│   ├── 04_json.sql
-│   ├── 05_arrays.sql
-│   ├── 06_extensions.md
-│   └── 07_postgresql_features.sql
-│
 ├── 19_SQL_With_Backend/
-│   ├── 01_node_postgresql/
-│   ├── 02_express_postgresql/
-│   ├── 03_typescript_postgresql/
-│   ├── 04_python_postgresql/
-│   └── 05_api_database_architecture/
-│
 ├── 20_Projects/
-│   ├── 01_student_database/
-│   ├── 02_library_database/
-│   ├── 03_expense_tracker_database/
-│   ├── 04_ecommerce_database/
-│   ├── 05_blog_database/
-│   └── 06_fullstack_application_database/
-│
 ├── 21_Interview_Practice/
-│   ├── basic_questions.sql
-│   ├── joins_questions.sql
-│   ├── aggregation_questions.sql
-│   ├── subquery_questions.sql
-│   ├── window_function_questions.sql
-│   └── real_world_queries.sql
-│
 └── 22_Exercises/
-    ├── beginner/
-    ├── intermediate/
-    └── advanced/
+```
+
+---
+
+# 🔥 The Goal
+
+I'm not learning SQL just to put another technology on my resume.
+
+I'm learning it because **strong developers understand how their applications store, retrieve, organize, and protect data.**
+
+The journey:
+
+```text
+Learn SQL
+    ↓
+Understand Databases
+    ↓
+Design Data Properly
+    ↓
+Write Better Queries
+    ↓
+Understand Performance
+    ↓
+Connect Databases to Backend
+    ↓
+Build Real Applications
+    ↓
+Become a Better Full-Stack Developer
+```
+
+---
+
+<div align="center">
+
+## 🚀 One Query at a Time.
+
+### Learn → Practice → Break → Debug → Understand → Build
+
+<br>
+
+**SQL • MySQL • PostgreSQL • Backend • Full Stack**
+
+<br>
+
+⭐ **Learning in public. Building for the future.**
+
+<br>
+
+**Status:** 🟢 Active Learning
+**Sections:** `0 / 22`
+**Projects:** `0 / 6`
+**Last Updated:** August 2026
+
+</div>
